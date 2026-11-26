@@ -5,7 +5,7 @@
 =====================================================================
  OPTION A (works by default, no setup in code):
    Uses FormSubmit.co. Submit the form ONCE yourself, then click the
-   activation link mailed to hrzenjade@gmail.com (check Spam/Promotions).
+   activation link mailed to hrkarthickzenjade@gmail.com (check Spam/Promotions).
    After that every submission goes to all 3 HR addresses.
 
  OPTION B (most reliable, like a Google Form) - use the script below:
@@ -22,7 +22,7 @@
 // Type: Web app | Execute as: Me | Who has access: Anyone > Deploy > authorize > copy the Web App URL
 // Paste that URL into APPS_SCRIPT_URL in the HTML file.
 
-const TO = "hrzenjade@gmail.com,zenjadeautomation@gmail.com,hrkarthickzenjade@gmail.com";
+const TO = "hrkarthickzenjade@gmail.com,zenjadeautomation@gmail.com,hrzenjade@gmail.com";
 
 function doPost(e) {
   try {
@@ -234,8 +234,8 @@ button.submit:disabled{opacity:.6;cursor:wait}
 // It mails all 3 addresses directly. If left empty, FormSubmit.co is used as fallback.
 const APPS_SCRIPT_URL = "";
 
-const PRIMARY = "hrzenjade@gmail.com";
-const CC = "zenjadeautomation@gmail.com,hrkarthickzenjade@gmail.com";
+const PRIMARY = "hrkarthickzenjade@gmail.com";
+const CC = "zenjadeautomation@gmail.com,hrzenjade@gmail.com";
 /* ========================================= */
 
 const $ = s => document.querySelector(s);
